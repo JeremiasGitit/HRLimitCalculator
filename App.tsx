@@ -17,8 +17,8 @@ export default function App() {
         value={age}
         onChangeText={setAge}
       />
-      <Text style={styles.text}>{hrLimitUpper.toFixed(0)} Upper limit:</Text>
-      <Text style={styles.text}>{hrLimitLower.toFixed(0)} Lower limit:</Text>
+      <Text style={styles.text}>Upper limit: {hrLimitUpper.toFixed(0)}</Text>
+      <Text style={styles.text}>Lower limit: {hrLimitLower.toFixed(0)}</Text>
     </View>
   );
 }
