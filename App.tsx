@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   },
   textInput: {
     borderWidth: 1,
+    borderRadius: 10,
     padding: 10,
     width: 100,
     marginBottom: 16,
