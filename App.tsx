@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 24,
     marginTop: 34,
-    marginBottom: 16
+    marginBottom: 16,
+    fontWeight: '500'
   },
   smallTitle: {
     marginVertical: 22,
@@ -43,7 +44,8 @@ const styles = StyleSheet.create({
     padding: 10,
     width: 100,
     marginBottom: 16,
-    fontSize: 18
+    fontSize: 18,
+
   },
   text: {
     marginVertical: 6,
